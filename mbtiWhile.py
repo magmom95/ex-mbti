@@ -128,10 +128,10 @@ while True:
         plt.imshow(image)
         plt.show()
 
-    time.sleep(2)
+    time.sleep(1)
     clear()
 
-    n = int(input("다시 돌아가고싶으면 엔터를 원치 않으시면 1을 입력해주세요 "))
+    n = int(input("끝내시려면 1을 눌러주세요 "))
 
     if n == 1:
         break
