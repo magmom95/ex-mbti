@@ -65,16 +65,6 @@ if q4 == 1:
 if q4 == 2:
     b += 1
 clear()
-print("이성규님의 생일은?")
-print("1.6월 23일")
-print("2.몰라요 ㅎ")
-q5 = int(input("번호를 입력해주세요:"))
-clear()
-print("이성규님의 계좌는?")
-print("1.케이뱅크 100-163-780056")
-print("2.몰라요 ㅎ")
-q6 = int(input("번호를 입력해주세요:"))
-
 print("결과는")
 clear()
 script_dir = os.path.dirname(os.path.abspath(__file__))
